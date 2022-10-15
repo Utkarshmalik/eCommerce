@@ -2,8 +2,8 @@ module.exports = {
     development: {
         HOST: "localhost",
         USER: "root",
-        PASSWORD: "Welcome1",
-        DB: "ecom_db",
+        PASSWORD: "qwerty123",
+        DB: "ecom_db_new",
         dialect: "mysql",
         pool: {
             max: 5,
@@ -14,9 +14,9 @@ module.exports = {
     },
     test: {
         HOST: "localhost",
-        USER: "root",
-        PASSWORD: "Mohit@19",
-        DB: "ecom_test_db",
+        USER : "root",
+        PASSWORD : "qwerty123",
+        DB: "ecom",
         dialect: "mysql",
         pool: {
             max: 5,
